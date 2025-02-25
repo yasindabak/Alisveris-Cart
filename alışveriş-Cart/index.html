@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alışveriş Kartı</title>
+    <link rel="stylesheet" href="styles.scss">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">Alışveriş Sitesi</div>
+        <div class="cart">
+            <span class="cart-icon">🛒</span>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+    <div class="product-list" id="product-list">
+        <!-- Ürün kartları burada görünecek -->
+    </div>
+    <div class="cart-modal" id="cart-modal">
+        <div class="cart-content">
+            <span class="close-cart-button" id="close-cart-button">&times;</span>
+            <h2>Sepetim</h2>
+            <ul id="cart-items">
+                <!-- Sepete eklenen ürünler burada görünecek -->
+            </ul>
+        </div>
+    </div>
+    <div class="product-modal" id="product-modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <img src="" alt="Product Image" id="modal-product-image">
+            <h2 id="modal-product-title">Ürün Adı</h2>
+            <p id="modal-product-description">Ürün Açıklaması</p>
+            <span class="modal-product-price" id="modal-product-price">$0.00</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
